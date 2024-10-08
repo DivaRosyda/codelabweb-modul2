@@ -1,0 +1,139 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8d6e0;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f29db4;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.deal-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: #7c141e;
+    font-weight: bold;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product h3 {
+    margin-top: 10px;
+    color: #a75178;
+}
+
+footer {
+    background-color: #d6a5b7;
+    padding: 50px 20px;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content h4 {
+    margin-bottom: 20px;
+}
+
+.footer-content ul {
+    list-style-type: none;
+}
+
+.footer-content ul li {
+    margin-bottom: 10px;
+}
+
+.footer-content ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-content form {
+    margin-top: 20px;
+}
+
+.footer-content form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-content form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff6f9f;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-content form button:hover {
+    background-color: #ff3d6c;
+}
+
+.social-media a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
