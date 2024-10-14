@@ -9,12 +9,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f8a1a1;
+    background-color: #ffffff;
     font-family: Arial, sans-serif;
 }
 
 .calculator {
-    background-color: #f36c6c;
+    background-color: #DE6D89;
     border-radius: 20px;
     padding: 20px;
     width: 260px;
@@ -40,25 +40,25 @@ body {
 }
 
 .btn {
-    background-color: #f8a1a1;
+    background-color: #ffffff;
     border: none;
     border-radius: 10px;
     height: 50px;
     font-size: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 
 .btn:active {
-    background-color: #f36c6c;
+    background-color: #DE6D89;
 }
 
 .clear {
-    background-color: #f36c6c;
+    background-color: #DE6D89;
     grid-column: span 2;
 }
 
 .equal {
-    background-color: #f36c6c;
+    background-color: #DE6D89;
     grid-row: span 2;
 }
